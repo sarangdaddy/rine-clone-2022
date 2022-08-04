@@ -2,64 +2,21 @@
 @import "reset.css";
 @import "variables.css";
 
-/* CSS */
-@import "status-bar.css";
+/* COMPONENTS */
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+
+/* SCREENS */
+@import "screens/login.css";
 
 body {
   font-family: "Kanit", sans-serif;
   font-family: "Open Sans", sans-serif;
+  background-color: rgba(0, 0, 0, 0.726);
+  color: white;
 }
 
-.login-header {
-  margin: 80px 0 50px 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 80px;
-  color: var(--green);
-  font-weight: bolder;
-}
-
-.login-form {
-  display: flex;
-  flex-direction: column;
-  margin: 0 30px;
-  margin-bottom: 20px;
-}
-
-.login-form input {
-  padding: 15px 10px;
-  border: 1px solid rgba(0, 0, 0, 0.2);
-  transition: border-color 0.3s ease-in-out;
-}
-
-.login-form input:nth-child(1) {
-  border-top: 1px solid rgba(0, 0, 0, 0.2);
-  border-radius: 5px 5px 0px 0px;
-}
-
-.login-form input:nth-child(2) {
-  border-top: 1px solid rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 5px 5px;
-}
-
-.login-form input:last-child {
-  margin-top: 15px;
-  border-radius: 5px;
-  color: rgba(0, 0, 0, 0.5);
-}
-
-.login-form input::placeholder {
-  color: rgba(0, 0, 0, 0.5);
-}
-
-.login-option {
-  display: flex;
-  margin: 0 30px;
-  justify-content: space-between;
-  color: rgba(0, 0, 0, 0.5);
-}
-
-.login-form input:focus {
-  border-color: var(--green);
+a {
+  text-decoration: none;
+  color: inherit;
 }
