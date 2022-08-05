@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px 15px 20px;
+  margin-top: 40px;
+}
+
+.header__title:first-child {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.header__icons span {
+  margin-left: 15px;
+}
+
+.header__icons__notice {
+  position: relative;
+}
+
+.header__notification {
+  color: var(--green);
+  font-size: 30px;
+  position: absolute;
+  left: 1px;
+  bottom: 15px;
+}
