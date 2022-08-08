@@ -6,7 +6,7 @@
   margin-top: 40px;
 }
 
-.header__title:first-child {
+.header__title {
   font-size: 25px;
   font-weight: 600;
 }
