@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   background-color: rgba(82, 82, 82, 0.918);
-  margin: 0px 30px 10px 20px;
+  margin: 0px 20px 10px 20px;
   padding: 10px;
   opacity: 0.5;
   border-radius: 5px;
@@ -15,7 +15,7 @@
 
 .search-bar .search-bar__column:last-child {
   width: 95%;
-  position: relative;  
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
