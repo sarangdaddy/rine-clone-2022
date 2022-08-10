@@ -1,21 +1,25 @@
 .main-screen__user {
-  margin: 10px 20px;
+  margin: 15px 20px;
 }
 
 .main-screen__user__column {
   display: flex;
   margin-bottom: 15px;
+  align-items: center;
 }
 
-.main-screen__user__content {
-  margin-left: 15px;
+.main-screen__user__photo {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  margin-right: 8px;
 }
 
-.main-screen__user__content h5 {
-  font-size: 10px;
+.main-screen__user__content span:first-child {
+  font-size: 13px;
 }
 
-.main-screen__user__content span {
-  font-size: 10px;
+.main-screen__user__content span:last-child {
+  font-size: 9px;
   opacity: 0.5;
 }
