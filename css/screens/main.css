@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   margin: 20px;
-  font-size: 10px;
+  font-size: 13px;
 }
 
 .main-screen__title span:last-child {

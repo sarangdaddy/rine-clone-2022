@@ -1,16 +1,18 @@
 .main-screen__user {
   margin: 15px 20px;
+  display: flex;
+  align-items: center;
 }
 
 .main-screen__user__column {
   display: flex;
-  margin-bottom: 15px;
-  align-items: center;
+  width: 100%;
+  justify-content: space-between;
 }
 
 .main-screen__user__photo {
-  width: 35px;
-  height: 35px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   margin-right: 8px;
 }
@@ -21,5 +23,23 @@
 
 .main-screen__user__content span:last-child {
   font-size: 9px;
+  opacity: 0.5;
+}
+
+.main-screen__user__deco {
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-screen__user__deco .badge {
+  width: 15px;
+  height: 15px;
+  font-size: 10px;
+  margin-top: 5px;
+}
+
+.main-screen__user__deco span {
   opacity: 0.5;
 }
