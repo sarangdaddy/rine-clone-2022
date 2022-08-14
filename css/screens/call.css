@@ -1,0 +1,7 @@
+.main-screen__user__content__memo i {
+  margin-right: 5px;
+}
+
+.main-screen__user:first-child .main-screen__user__content__who {
+  color: tomato;
+}

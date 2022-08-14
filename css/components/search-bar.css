@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgba(82, 82, 82, 0.918);
+  background-color: gray;
   margin: 0px 20px 10px 20px;
   padding: 10px;
   opacity: 0.5;
@@ -29,7 +29,7 @@
 
 .search-bar__column input {
   width: 100%;
-  background-color: rgba(82, 82, 82, 0.918);
+  background-color: gray;
   border: 0px;
   color: white;
   font-weight: 400;

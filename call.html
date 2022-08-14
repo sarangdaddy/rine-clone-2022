@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" class="css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CALL</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>2:07</span>
+      </div>
+      <div class="status-bar__column">
+        <i class="fa-solid fa-signal fa-xs"></i>
+        <span>LTE</span>
+        <i class="fa-solid fa-battery-three-quarters fa-lg"></i>
+      </div>
+    </div>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="home.html"
+            ><i class="fa-regular fa-circle-user fa-2x"></i
+            ><span class="nav__link-name">홈</span></a
+          >
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chat.html"
+            ><i class="fa-regular fa-comment-dots fa-2x"></i>
+            <span class="nav__link-name">대화</span>
+            <span class="nav__notification">1</span>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="voom.html"
+            ><i class="fa-regular fa-circle-play fa-2x"></i
+            ><span class="nav__link-name">VOOM</span>
+            <span class="nav__notice">.</span>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="call.html"
+            ><i class="fa-solid fa-paper-plane fa-2x"></i
+            ><span class="nav__link-name">통화</span></a
+          >
+        </li>
+      </ul>
+    </nav>
+
+    <header class="header">
+      <div class="header__title">
+        <span>통화</span>
+        <span class="header__title__deco">
+          <i class="fa-solid fa-caret-down fa-2xs"></i>
+        </span>
+      </div>
+      <div class="header__icons">
+        <span class="header__icons__list">
+          <i class="fa-regular fa-circle-user fa-lg"></i>
+        </span>
+      </div>
+    </header>
+
+    <main class="main-screen">
+      <div class="main-screen__user">
+        <img src="photo/mom.JPG" class="main-screen__user__photo" />
+        <div class="main-screen__user__column">
+          <div class="main-screen__user__content">
+            <span class="main-screen__user__content__who">사랑엄마 (3)</span>
+            <br />
+            <span class="main-screen__user__content__memo"
+              ><i class="fa-solid fa-circle-arrow-up"></i>2022.08.15</span
+            >
+          </div>
+          <div class="main-screen__user__deco">
+            <span><i class="fa-solid fa-video fa-lg"></i></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="main-screen__user">
+        <img src="photo/friend.JPG" class="main-screen__user__photo" />
+        <div class="main-screen__user__column">
+          <div class="main-screen__user__content">
+            <span class="main-screen__user__content__who">해피 (2)</span>
+            <br />
+            <span class="main-screen__user__content__memo">
+              <i class="fa-solid fa-circle-arrow-down"></i>2022.08.01</span
+            >
+          </div>
+          <div class="main-screen__user__deco">
+            <span><i class="fa-solid fa-phone fa-lg"></i></span>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+
+  <script
+    src="https://kit.fontawesome.com/ca4a5a88ab.js"
+    crossorigin="anonymous"
+  ></script>
+</html>

@@ -2,7 +2,7 @@
   position: relative;
 }
 
-.section__deno {
+.section__deco {
   width: 20px;
   height: 20px;
   background-color: var(--green);
@@ -13,7 +13,7 @@
   position: absolute;
   bottom: 20px;
   right: -3px;
-  border: 2px solid rgba(0, 0, 0, 0.726);
+  border: 2px solid black;
 }
 
 .section__user-info__photo {

@@ -1,5 +1,5 @@
 .main-screen__user {
-  margin: 15px 20px;
+  margin: 15px 30px 15px 20px;
   display: flex;
   align-items: center;
 }
@@ -70,6 +70,10 @@
   margin-right: 20px;
 }
 
+.main__voom__column-tag__icon:first-child span {
+  color: white;
+}
+
 .main__voom__column-tag__icon:last-child i {
   margin-right: 5px;
   color: tomato;
@@ -78,5 +82,5 @@
 .main__voom__column-tag__time {
   font-size: 10px;
   margin-top: 10px;
-  opacity: 1;
+  color: darkgrey;
 }
