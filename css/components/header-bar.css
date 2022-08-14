@@ -19,10 +19,28 @@
   position: relative;
 }
 
-.header__notification {
+.header__notification__notice {
   color: var(--green);
-  font-size: 30px;
+  font-size: 40px;
   position: absolute;
   left: 1px;
   bottom: 15px;
+}
+
+.header__photo {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+.header__icons__photo {
+  position: relative;
+}
+
+.header__notification__photo {
+  color: var(--green);
+  font-size: 40px;
+  position: absolute;
+  left: 10px;
+  bottom: 22px;
 }

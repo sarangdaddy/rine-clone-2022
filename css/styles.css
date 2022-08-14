@@ -13,7 +13,7 @@
 /* SCREENS */
 @import "screens/login.css";
 @import "screens/home.css";
-@import "screens/main.css";
+@import "screens/voom.css";
 
 body {
   font-family: "Kanit", sans-serif;

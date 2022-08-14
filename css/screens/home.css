@@ -1,6 +1,6 @@
 .section__user-info__photo__sarang {
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
 }
 
@@ -15,8 +15,23 @@
   font-weight: 600;
 }
 
+.section__user-info__name {
+  font-size: 20px;
+}
+
 .section__user-info__status {
   font-size: 12px;
   margin-top: 5px;
   opacity: 0.3;
+}
+
+.main-screen__title {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  font-size: 13px;
+}
+
+.main-screen__title span:last-child {
+  opacity: 0.5;
 }
