@@ -72,24 +72,26 @@
         <i class="fa-solid fa-magnifying-glass fa-2xs"></i>
       </div>
       <div class="search-bar__column">
-        <div><input type="text" placeholder="검색" /></div>
-        <div><i class="fa-solid fa-qrcode"></i></div>
+        <input type="text" placeholder="검색" />
+        <i class="fa-solid fa-qrcode"></i>
       </div>
     </form>
 
     <main class="main-screen">
       <div class="main-screen__user">
-        <img src="photo/mom.JPG" class="main-screen__user__photo" />
-        <div class="main-screen__user__column">
-          <div class="main-screen__user__content">
-            <span>사랑엄마</span> <br />
-            <span>밥은 먹고 다니니?</span>
+        <a href="chatlive.html" style="display: contents">
+          <img src="photo/mom.JPG" class="main-screen__user__photo" />
+          <div class="main-screen__user__column">
+            <div class="main-screen__user__content">
+              <span>사랑엄마</span> <br />
+              <span>밥은 먹고 다니니?</span>
+            </div>
+            <div class="main-screen__user__deco">
+              <span>오늘</span>
+              <div class="badge">1</div>
+            </div>
           </div>
-          <div class="main-screen__user__deco">
-            <span>오늘</span>
-            <div class="badge">1</div>
-          </div>
-        </div>
+        </a>
       </div>
 
       <div class="main-screen__user">
@@ -105,6 +107,9 @@
         </div>
       </div>
     </main>
+    <div id="no-moble">
+      <span>This is for only mobile phone...</span>
+    </div>
   </body>
 
   <script

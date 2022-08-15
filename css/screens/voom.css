@@ -38,3 +38,23 @@
   color: white;
   opacity: 1;
 }
+
+@keyframes heartAni {
+  0% {
+    color: tomato;
+    transform: none;
+  }
+  50% {
+    color: white;
+    transform: scale(1.5);
+  }
+  100% {
+    color: tomato;
+    transform: none;
+  }
+}
+
+.main__voom__column-tag__icon:hover i {
+  will-change: transform;
+  animation: heartAni 1s linear infinite;
+}

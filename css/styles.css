@@ -9,12 +9,15 @@
 @import "components/search-bar.css";
 @import "components/main-screen__user.css";
 @import "components/badge.css";
+@import "components/no-mobile.css";
 
 /* SCREENS */
 @import "screens/login.css";
 @import "screens/home.css";
 @import "screens/voom.css";
 @import "screens/call.css";
+@import "screens/setting.css";
+@import "screens/chatlive.css";
 
 body {
   font-family: "Kanit", sans-serif;

@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 15px 30px 15px 20px;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 .header__title {
@@ -43,4 +43,18 @@
   position: absolute;
   left: 10px;
   bottom: 22px;
+}
+
+@keyframes rotateCog {
+  from {
+    transform: none;
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.header__icons__setting .fa-gear:hover {
+  animation: rotateCog 2s linear infinite;
 }
