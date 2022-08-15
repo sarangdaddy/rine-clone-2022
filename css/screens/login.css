@@ -1,3 +1,8 @@
+.login-body .status-bar {
+  background-color: white;
+  color: black;
+}
+
 .login-body {
   background-color: white;
   color: black;
@@ -5,11 +10,6 @@
   flex-direction: column;
   justify-content: center;
   height: 100vh;
-}
-
-.login-body .status-bar {
-  background-color: white;
-  color: black;
 }
 
 .login-header {
